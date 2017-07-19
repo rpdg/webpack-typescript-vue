@@ -1,10 +1,13 @@
 
 <style lang="scss">
 $size: 20px;
-$color: red;
+$color: green;
 .greeting {
     font-size: $size;
     color: $color;
+    &:hover{
+        color: darken($color, 5%);
+    }
 }
 </style>
 
