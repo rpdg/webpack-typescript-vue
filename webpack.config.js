@@ -57,7 +57,7 @@ module.exports = {
     performance: {
         hints: false
     },
-    devtool: '#eval-source-map'
+    devtool: '#cheap-source-map'
 }
 
 process.env.NODE_ENV = 'production';
